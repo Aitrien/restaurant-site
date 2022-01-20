@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(248,240,239);
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headline {
+    font-size: 96px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.menu-link {
+    display: block;
+    margin-left: 60px;
+}
+
+.home-image {
+    margin: 100px auto 0 auto;
+}
