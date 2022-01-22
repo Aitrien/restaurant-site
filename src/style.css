@@ -18,6 +18,12 @@ body {
     margin-left: 60px;
 }
 
-.home-image {
-    margin: 100px auto 0 auto;
+.right-image {
+    margin: 50px auto 0 auto;
+}
+
+.text-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px; 
 }
