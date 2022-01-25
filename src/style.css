@@ -1,4 +1,7 @@
 body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 100px 1fr 70px;
     background-color: rgb(248,240,239);
 }
 
@@ -6,7 +9,7 @@ body {
     animation: fadeIn 1.5s forwards;
     display: flex;
     flex-wrap: wrap;
-    background-color: pink;
+    justify-content: space-between;
 }
 
 .menu-container {
@@ -75,8 +78,29 @@ body {
     max-width: 500px; 
 }
 
+.contact-headline {
+    font-size: 66px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
 #map {
-    width: 600px;
+    width: 450px;
     height: 450px;
     border: 0;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: rgb(26,26,26);
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(248,240,239);
+}
+
+footer a:hover {
+    color: rgb(224, 199, 84);
 }
