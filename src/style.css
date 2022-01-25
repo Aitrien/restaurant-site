@@ -2,9 +2,56 @@ body {
     background-color: rgb(248,240,239);
 }
 
-.page-container {
+.page-container, .menu-container {
+    animation: fadeIn 1.5s forwards;
     display: flex;
     flex-wrap: wrap;
+    background-color: pink;
+}
+
+.menu-container {
+    border: 5px solid rgb(26,26,26);
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.menu-container h1, .menu-subtitle {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-container h1 {
+    font-size: 70px;
+    margin: 50px 0 50px 0;
+}
+
+.menu-subtitle {
+    text-decoration: underline;
+    margin: 50px auto 0 auto;
+}
+
+.menu-card {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 100%;
+    max-width: 500px;
+    height: 180px;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+
+.menu-card p {
+    text-align: center;
+}
+
+.price {
+    color: rgb(26, 26, 26);
+    font-style: italic;
 }
 
 .headline {
@@ -26,4 +73,10 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 500px; 
+}
+
+#map {
+    width: 600px;
+    height: 450px;
+    border: 0;
 }
