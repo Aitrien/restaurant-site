@@ -4,6 +4,10 @@ const path = require('path');
 module.exports = {
   entry: {
     index: './src/index.js',
+    home: './src/home.js',
+    about: './src/about.js',
+    menu: './src/menu.js',
+    contact: './src/contact.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
