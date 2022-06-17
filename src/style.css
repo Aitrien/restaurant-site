@@ -63,6 +63,18 @@ body {
     margin-left: 0;
 }
 
+.about-subtitle {
+    font-weight: 900;
+    color: rgb(0,0,0);
+}
+
+.text-block {
+    font-weight: lighter;
+    margin-top: 30px;
+    border-left: 1px solid rgb(95, 95, 95);
+    padding-left: 20px;
+}
+
 .menu-link {
     display: block;
     width: 380px;

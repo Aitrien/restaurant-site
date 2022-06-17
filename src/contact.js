@@ -11,7 +11,8 @@ export default function contactPage() {
 	textSide.appendChild(title);
 
 	const contacts = document.createElement('p');
-	contacts.innerText = "\nTel: 123-456-7890 \nEmail: info@restaurant.com\nAddress: 123 Fourth Street, Antarctica\n\nOpening Hours: \nMon - Fri: 12pm - 10pm\n​​Saturday: 12pm - 4pm\nSunday: 12pm - 8pm";
+	contacts.innerText = "Tel: 123-456-7890 \nEmail: info@restaurant.com\nAddress: 123 Fourth Street, Antarctica\n\nOpening Hours: \nMon - Fri: 12pm - 10pm\n​​Saturday: 12pm - 4pm\nSunday: 12pm - 8pm";
+	contacts.classList.add('text-block');
 	textSide.appendChild(contacts);
 
 	container.appendChild(textSide);
