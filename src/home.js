@@ -13,11 +13,15 @@ export default function homePage() {
 
 	const menuLink = document.createElement('a');
 	menuLink.href = "#";
-	menuLink.classList.add('menu-link')
+	menuLink.classList.add('menu-link');
 
 	const subtitle = document.createElement('h4');
 	subtitle.innerText = "Check out our flavours >";
-	subtitle.addEventListener('click', () => swapPage("Menu"));
+	subtitle.addEventListener('click', () => {
+		//swapPage("Menu")
+		const menuNav = document.getElementById('menu-link');
+		menuNav.click();
+	});
 
 	menuLink.appendChild(subtitle);
 	text.appendChild(title);

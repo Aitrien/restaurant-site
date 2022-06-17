@@ -47,6 +47,7 @@ function header() {
 		pageLink.href = "#";
 		pageLink.addEventListener('click', () => swapPage(pageName));
 		pageLink.classList.add('nav-link');
+		pageLink.id = pageName.toLowerCase() + "-link";
 		pageLink.innerText = pageName;
 		navPage.appendChild(pageLink);
 		navbar.appendChild(navPage);

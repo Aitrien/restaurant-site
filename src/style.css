@@ -60,12 +60,18 @@ body {
 .headline {
     font-size: 96px;
     margin-top: 100px;
-    margin-left: 10%;
+    margin-left: 0;
 }
 
 .menu-link {
     display: block;
-    margin-left: 60px;
+    width: 380px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.menu-link:hover, .menu-link h4:hover {
+    background-color:rgb(236, 118, 144);
 }
 
 .right-image {
@@ -81,7 +87,7 @@ body {
 .contact-headline {
     font-size: 66px;
     margin-top: 100px;
-    margin-left: 10%;
+    margin-left: 0;
 }
 
 #map {
